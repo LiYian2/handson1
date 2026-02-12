@@ -1,0 +1,6 @@
+extends:
+  - "configs/base_config.yaml"
+  - "configs/models/resnet9.yaml"
+experiment:
+  name: "exp1_baseline_resnet9"
+  tags: ["baseline", "resnet9"]

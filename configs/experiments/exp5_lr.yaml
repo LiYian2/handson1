@@ -1,0 +1,7 @@
+extends:
+  - "configs/base_config.yaml"
+experiment:
+  name: "exp5_lr_scheduler"
+ablation:
+  mode: "lr_scheduler"
+  variants: ["CosineAnnealingLR", "StepLR"]

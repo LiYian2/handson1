@@ -1,0 +1,7 @@
+extends:
+  - "configs/base_config.yaml"
+experiment:
+  name: "exp3_batchnorm"
+ablation:
+  mode: "batchnorm"
+  variants: [true, false]

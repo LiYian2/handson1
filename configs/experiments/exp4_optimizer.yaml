@@ -1,0 +1,7 @@
+extends:
+  - "configs/base_config.yaml"
+experiment:
+  name: "exp4_optimizer"
+ablation:
+  mode: "optimizer"
+  variants: ["SGD", "AdamW"]

@@ -1,0 +1,5 @@
+model:
+  name: "resnet18"
+  block: "basic"
+  layers: [2, 2, 2, 2]
+  widths: [64, 128, 256, 512]

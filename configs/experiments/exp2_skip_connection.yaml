@@ -1,0 +1,7 @@
+extends:
+  - "configs/base_config.yaml"
+experiment:
+  name: "exp2_skip_connection"
+ablation:
+  mode: "skip_connection"
+  variants: ["resnet9", "plainnet"]

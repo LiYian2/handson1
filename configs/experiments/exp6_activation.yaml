@@ -1,0 +1,7 @@
+extends:
+  - "configs/base_config.yaml"
+experiment:
+  name: "exp6_activation"
+ablation:
+  mode: "activation"
+  variants: ["relu", "gelu", "silu"]

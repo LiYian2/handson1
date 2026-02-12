@@ -1,0 +1,12 @@
+torch
+torchvision
+numpy
+pandas
+pyarrow
+matplotlib
+seaborn
+tqdm
+pyyaml
+tensorboard
+wandb
+pytest
